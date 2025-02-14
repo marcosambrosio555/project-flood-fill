@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Fill</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="buttons">
+                <div class="tools">
+                    <button id="pencil" class="selected"><i class="fa fa-pencil-alt"></i></button>
+                    <button id="eraser"><i class="fa fa-eraser"></i></button>
+                    <button id="brush"><i class="fa fa-fill-drip"></i></button>
+                </div>
+                <div class="colors">
+                    <button id="black" accesskey="0,0,0" class="selected"></button>
+                    <button id="red" accesskey="255,0,0"></button>
+                    <button id="blue" accesskey="0,0,255"></button>
+                    <button id="green" accesskey="0,128,0"></button>
+                    <button id="yellow" accesskey="255,255,0"></button>
+                    <button id="white" accesskey="255,255,255"></button>
+                </div>
+            </div>
+            <div class="canvas-content">
+                <canvas id="canvas"></canvas>
+            </div>
+                <button class="btn-clean">Clean</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/5b8f00096f.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js" type="module"></script>
+
+
+</body>
+
+</html>
