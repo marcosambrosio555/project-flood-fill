@@ -17,6 +17,7 @@ let prevMouseX
 let prevMouseY
 
 
+
 const setCanvasBackground = () => {
     ctx.fillStyle = "#fff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
